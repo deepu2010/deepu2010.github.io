@@ -1,0 +1,245 @@
+/*Big tablet to 1200pc(widths smaller than the 1140px row)*/
+@media only screen and (max-width: 1200px)
+{
+    
+    .hero-text-box
+{
+    position: absolute;
+    width: 100%;
+    padding: 0 2%;   
+}
+    
+    .row
+    {
+
+     padding: 0 2%; 
+    
+    }
+}
+  /*Small tablet to big tablet: from 768px to 1023px*/
+    @media only screen and (max-width: 1023px)
+        
+    {
+        
+        body 
+        {
+            font-size: 18px;           
+
+        }
+        
+        section 
+        {
+            padding: 60px 0;
+        }
+    
+        
+        .long-copy
+        {
+            width: 80%;
+            margin-left: 10%;
+        }
+        
+        .steps-box
+        {
+            margin-top: 10px;
+        }
+        
+        .steps-box:last-child
+        {
+            margin-top: 10px;
+        }
+        
+        .works-step
+        {
+            margin-bottom:40px;
+        }
+        
+        .works-step:last-of-type
+        {
+            margin-bottom: 40px;
+        }
+        
+        .app-screen
+        {
+            width: 50%;
+        }
+        
+        .icon-small1
+        {
+            width: 17px;
+            
+        }
+        
+        .icon-small2
+        {
+            width: 17px;
+            
+        }
+        
+        .icon-small3
+        {
+            width: 17px;
+            
+        }
+        
+        .city-feature
+        {
+            font-size: 50%;
+            text-align: center;
+        }
+        
+        .plan-box
+        {
+            width: 100%;
+        }
+        
+        .plan-price
+        {
+            font-size: 250%;
+        }
+        
+        .contact-form
+        {
+            width: 80%;
+        }
+        
+.city-feature a:link,
+.city-feature a:visited
+{
+    
+   
+    font-size:55%;
+    font-weight: 500;
+    
+}
+
+.city-feature a:hover,
+.city-feature a:active
+{
+   
+    font-weight: 1000;
+    
+}
+
+.section-cities h3
+        {
+            font-size: 80%;        }
+        
+}
+
+
+/*Small phones to small tablets: from 481px to 767px*/
+
+@media only screen and (max-width: 767px)
+{
+    body { font-size:16px;}
+    section { padding: 30px 0;}
+    
+    .row
+    {
+        padding: 0 4%;
+    }
+    
+    .col
+    {
+        width: 100%;
+        margin: 0 0 4% 0;
+    }
+    .main-nav
+    {
+        display: none;
+    }
+    
+    
+    h1 { font-size: 180%; }
+    h2 { font-size: 150%; }
+    
+    .long-copy
+    {
+        width: 100%;
+        margin-left: 0%;
+    }
+    
+    .app-screen { width: 40%; }
+    .steps-box:first-child { text-align: center;}
+   
+    .hero-text-box { padding: 0 4%;
+    font-size: 70%; }
+    
+    .works-step div
+    {
+        height: 40px;
+        width: 40px;
+        margin-right: 15px;
+        padding: 4px;
+        font-size: 120%;
+    }
+    
+    
+    .works-step { margin-bottom: 20px; }
+    .works-step:last-of-type {margin-bottom: 20px;}
+    .section-steps h4
+    {
+        padding-bottom: 20px;
+    }
+    
+
+    /*****Kamal blockquote******/
+blockquote1
+{
+    padding: 2%;
+    font-style: italic;
+    line-height: 150%;
+    position: relative;
+    font-size: 100%;
+    
+}
+
+blockquote1:before
+{
+    content: "\201C";
+    font-size: 400%;
+    display: block;
+    position: absolute;
+    top: 5px;
+    left: 0;
+    
+}
+
+cite1
+{
+    font-size: 80%;
+    display: inline-block;
+    text-align: center;
+    color: orange;
+    font-weight: 500;
+}
+
+cite1 img
+{
+    width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    margin-top: -15px;
+}
+    
+    cite2 img
+{
+    width: 90%;
+    height: auto;
+    display: block;
+    border-radius: 50%;
+    margin-top: -1.5px;
+    
+}
+
+}
+
+/*small phones: from 0 to 480px */
+@media only screen and (max-width: 480px)
+{
+    section { padding: 25px 0;}
+    .contact-form { width: 100%; }
+    
+}
